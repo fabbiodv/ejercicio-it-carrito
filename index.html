@@ -13,18 +13,56 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 
-    <title>Hello, world!</title>
+    <title>Ejercicio IT / Carrito </title>
   </head>
   <body>
+    <!-- Header -->
     <header>
       <div>
         <h6 class="offer">12 cuotas sin interés + Envio gratis</h6>
       </div>
-      <div class="image">
-        <img class="rounded mx-auto d-block pt-3" src="images/pow-title.png" alt="">
+      <div class="nav mt-2 mt-md-0">
+        <!-- Logo de POW. -->
+        <img id="powImage" class="rounded mb-2 mx-auto d-block pt-3" src="images/pow-title.png" alt="">
       </div>
-      <div>
-        <ul class="nav justify-content-center pt-3 p-3">
+
+
+      <div id="nav">
+        <div class="row">
+          <div class="col-4 ">
+          </div>
+          <div class="col-4 pt-2 pb-2 d-flex">
+              <div class="col-4 d-flex justify-content-around">
+                <a href="#" class="link-dark">Sale</a>
+              </div>  
+              <div class="col-4 d-flex justify-content-around" style="border-bottom: 1px solid #000">
+                <a href="#" class="link-dark">Colección</a>
+              </div>              
+              <div class="col-4 d-flex justify-content-around" >
+                <a href="#" class="link-dark">Gift Cards</a>
+              </div>
+          </div>
+          <div class="col-4 pt-2 pb-2 d-flex align-items-center">
+            <div class="col-5 d-flex justify-content-end">
+              <img id="searchIcon" src="images/search-interface-symbol.png" alt="">
+            </div>  
+            <div class="col-2 d-flex justify-content-around" >
+              <img  id="userIcon" src="images/user.png" alt="">
+            </div>              
+            <div class="col-5 d-flex justify-content-start" >
+              <span id="numberCart">2</span>
+              <img  id="shoppingBag" src="images/bag.png" alt="">
+            </div>          
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end Header -->
+
+              <!--  
+
+      <nav style="display: flex; justify-content: space-between; ">
+        <ul class="nav justify-content-center pt-3 p-3" >
           <li class="nav-item">
             <a class="nav-link " href="#">Sale</a>
           </li>
@@ -35,52 +73,149 @@
             <a class="nav-link " href="#">Gift Cards</a>
           </li>
         </ul>
-      </div>
-    </header>
+
+        <ul class="nav mt-2 mt-md-0 " style="background-color: blue;">
+          <li class="nav-item">
+            <img  src="images/search-interface-symbol.png" alt="">
+          </li>
+          <li class="nav-item">
+            <img  src="images/user.png" alt="">
+          </li>
+          <li class="nav-item">
+            <img  src="images/pow-title.png" alt="">
+          </li>
+        </ul>
+      </nav> 
+    
+-->
+
 
     <section>
     <div class="container">
       <div class="row">
-        <div class="col-8 border">
-          <h3>Carrito</h3>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+        <div class="col-md-8  border">
+          <div class="col-12 border">
+            <h3>Carrito</h3>
+          </div>
+          <div class="row">
+            <div class="col-4 border">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry
+            </div>
+            <div class="col-4 border">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry
+            </div>
+            <div class="col-4 border">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry
+            </div>
+          </div>
+          <div class="col-12 border">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">ART.</th>
+                  <th scope="col"></th>
+                  <th scope="col">Talle</th>
+                  <th scope="col">Cant.</th>
+                  <th scope="col">Precio</th>
+                  <th scope="col">Borrar</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                  <td>@fat</td>
+                  <td>@fat</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
-        <div class="col border">
-          <h4>Resumen</h4>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+        <div class="col-md-4 border">
+          <div class="col-12">
+            <h4>Resumen</h4>
+          </div>
+            <div class="row">
+              <div class="col-6">
+                  <h4>Subtotal</h4>
+              </div>
+              <div class="col-6">
+                  <h4>$8514</h4>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                  <h4>Envío</h4>
+              </div>
+              <div class="col-6">
+                  <h4>Gratis</h4>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                  <h4>Total</h4>
+              </div>
+              <div class="col-6">
+                  <h4>$8514</h4>
+              </div>
+            </div>
         </div>
       </div>
     </div>
   </section>
 
-  <footer class="footer">
-    <div class="container ">
-      <div class="row">
-        <div class="col d-flex justify-content-start align-items-center " >
-            <img src="images/social-media-icons.png" alt="">
-        </div>
-        <div class="col d-flex justify-content-center">
-          <div class="footer-center">
-            <span >
-              Faqs
-            </span>
-            <span class="ps-4 pe-2">
-              Nosotros
-            </span>
-            <span class="ps-2 pe-4">
-              Locales
-            </span>
-            <span>
-              Contacto
-            </span>
+    <!-- Footer -->
+  <footer class="footer ">
+    <div class="container  ">
+        <div class="row">
+
+        <div class="col 4 d-flex justify-content-start align-items-center " >
+          <div>
+            <img id="ig-icon" src="images/ig-icon.png" alt="">
+          </div>
+          <div>
+            <img id="fb-icon" src="images/fb-icon.png" alt="">
           </div>
         </div>
-        <div class="col d-flex justify-content-end align-items-center ">
-          <img  src="images/pow-title.png" alt="">
+
+        <div class="col 4 d-flex justify-content-center">
+          <div class="footer-center d-flex">
+            <div class="col 4" >
+              <span>Faqs</span>
+            </div>
+            <div class="col 4 ps-4 pe-2">
+              <span>Nosotros</span>
+            </div>
+            <div class="col 4 ps-2 pe-4">
+              <span>Locales</span>
+            </div>
+            <div class="col 4">
+              <span>Contacto</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col 4 d-flex justify-content-end align-items-center ">
+          <img id="pow-footer" src="images/pow-title.png" alt="">
         </div>
       </div>
     </div>
   </footer>
+    
+    <!-- end Footer -->
+
+
+    <script src="js/script.js"/>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
