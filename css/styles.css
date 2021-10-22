@@ -88,7 +88,7 @@ img#powImage {
   width: 70px;
 }
 img#pow-footer {
-  width: 30px;
+  width: 50px;
 }
 img#ig-icon,
 img#searchIcon,
@@ -100,12 +100,6 @@ img#fb-icon {
   width: 8px;
   height: 15px;
   margin-left: 15px;
-}
-
-img#shoppingBag {
-  width: 18px;
-  height: 18px;
-  position: relative;
 }
 
 img#shoppingBag {
@@ -129,14 +123,7 @@ img#card-icon {
   height: 28px;
 }
 
-span#numberCart {
-  font-family: roboto;
-  position: absolute;
-  font-size: 14px;
-  text-align: center;
-  width: 17px;
-}
-span#numberCart {
+#numberPlaceCart {
   font-family: roboto;
   position: absolute;
   font-size: 14px;

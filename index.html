@@ -48,7 +48,7 @@
               <img  id="userIcon" src="images/user.png" alt="">
             </div>              
             <div class="col-5 d-flex justify-content-start" >
-              <span class="cart">0</span>
+              <span id="numberPlaceCart">2</span>
               <img id="shoppingBag" src="images/bag.png" alt="">
             </div>          
           </div>
@@ -145,21 +145,21 @@
                     <td style="text-align: center;">
                       <div class="container">
                       <div class="row mx-auto border border-2" style="height: 46px; width: 115px;">
-                        <div class="col-4 border-end my-auto">
-                          <a href="#">-</a>
+                        <div id="minus" class="col-4 border-end my-auto">
+                          <a href="#" class="link-dark" id="">-</a>
                         </div>
                         <div class="col-4  my-auto">
-                          <h6>1</h6>
+                          <h6 id="numberPlace">1</h6>
                         </div>
-                        <div class="col-4 border-start my-auto">
-                          <a class="add-cart" href="#">+</a>
+                        <div id="plus" class="col-4 border-start my-auto">
+                          <a href="#" class="link-dark" >+</a>
                         </div>
-
                       </div>
                     </div>
                     </td>
-                    <td style="text-align: center;">                      <span id="erased-price">$9.895</span>
-                      <span id="red-price">$7.421</span>
+                    <td style="text-align: center;">                      
+                      <span id="erased-price">$9895</span>
+                      <span id="red-price">$7421</span>
                     </td>
                     <td style="text-align: center;">
                       <img id="delete-icon" src="images/delete-icon.png" alt="">
@@ -179,19 +179,19 @@
                     <td style="text-align: center;">
                       <div class="container">
                         <div class="row mx-auto border border-2" style="height: 46px; width: 115px;">
-                          <div class="col-4 border-end my-auto">
-                            <a id="substract-cart" href="#">-</a>
+                          <div id="minusJean" class="col-4 border-end my-auto">
+                            <a href="#" class="link-dark" id="">-</a>
                           </div>
                           <div class="col-4  my-auto">
-                            <h6 id="numberPlace">1</h6>
+                            <h6 id="numberPlaceJean">1</h6>
                           </div>
-                          <div class="col-4 border-start my-auto">
-                            <a id="add-cart" href="#">+</a>
+                          <div id="plusJean" class="col-4 border-start my-auto">
+                            <a href="#" class="link-dark" >+</a>
                           </div>
                         </div>
                       </div>
                     </td>                   
-                    <td style="text-align: center;"><span id="normal-price">$7.421</span></td>
+                    <td style="text-align: center;"><span id="normal-price">$7421</span></td>
                     <td style="text-align: center;">
                       <img id="delete-icon" src="images/delete-icon.png" alt="">
                     </td>
@@ -214,7 +214,7 @@
                       <h5 >Subtotal</h5>
                   </div>
                   <div class="col-6 pe-5">
-                      <h5 style="text-align: end;">$8514</h5>
+                      <h5 id="subtotalPlace" style="text-align: end;">$14842</h5>
                   </div>
                 </div>
 
@@ -232,7 +232,7 @@
                       <h4>Total</h4>
                   </div>
                   <div class="col-6 pe-5">
-                    <h4 style="text-align: end;">$8514</h4>
+                    <h4 id="totalPlace" style="text-align: end;">$14842</h4>
                   </div>
                 </div>
 
